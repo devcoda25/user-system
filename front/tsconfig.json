@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "src/user/user.entity": ["../back/src/user/user.entity"],
+      "src/user/create-user.dto": ["../back/src/user/dto/create-user.dto"],
+      "@back/*": ["../back/*"]
+    },
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"
+, "api.tsx"  ]
+}
